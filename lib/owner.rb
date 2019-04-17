@@ -73,6 +73,7 @@ class Owner
     fish_count = count[0]
     cat_count = count[1]
     dog_count = count[2]
+    "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
   end
 
 end
