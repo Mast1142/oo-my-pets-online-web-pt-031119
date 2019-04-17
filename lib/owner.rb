@@ -69,6 +69,7 @@ class Owner
     count = []
     @pets.each_pair do |key, val|
       @pets[key].size
+      binding.pry
     end
   end
 end
