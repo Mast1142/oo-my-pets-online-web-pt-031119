@@ -7,5 +7,5 @@ class Fish
     @name = name
     @mood = "nervous"
   end
-
+binding.pry
 end
