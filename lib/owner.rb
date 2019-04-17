@@ -55,7 +55,13 @@ class Owner
       x.mood = "happy"
     end
   end
-  def
+  def sell_pets
+    @pets.each_pair do |key, val|
+      key.each do |x|
+        x.mood = "nervous"
+      end
+    end
+  end
   def list_pets
   end
 end
