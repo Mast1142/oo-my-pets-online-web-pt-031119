@@ -71,4 +71,5 @@ class Owner
       count << @pets[key].size
     end
   end
+
 end
