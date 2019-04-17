@@ -3,7 +3,8 @@ class Owner
   attr_accessor :pets, :name
   attr_reader :species
   attr_writer
-@@all = []
+  @@all = []
+
   def initialize(species)
     @species = species
     @pets = {
@@ -62,8 +63,11 @@ class Owner
       end
       @pets[key].clear
     end
-
   end
+
   def list_pets
+    @pets.each_pair do |key, val|
+      @pets[key].each do |x|
+
   end
 end
