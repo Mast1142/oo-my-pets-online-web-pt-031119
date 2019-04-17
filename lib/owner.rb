@@ -5,7 +5,6 @@ class Owner
   attr_writer
 @@all = []
   def initialize(species)
-    @name = name
     @species = species
     @pets = {
       fishes: [],
