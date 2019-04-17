@@ -60,7 +60,6 @@ class Owner
       key.each do |x|
         x.mood = "nervous"
       end
-      key.clear
     end
 
   end
