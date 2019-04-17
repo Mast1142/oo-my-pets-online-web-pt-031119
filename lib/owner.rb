@@ -59,8 +59,10 @@ class Owner
     @pets.each_pair do |key, val|
       key.each do |x|
         x.mood = "nervous"
+        x.clear
       end
     end
+
   end
   def list_pets
   end
