@@ -66,8 +66,9 @@ class Owner
   end
 
   def list_pets
+    count = []
     @pets.each_pair do |key, val|
-      @pets[key].each do |x|
-
+      @pets[key].size
+    end  
   end
 end
