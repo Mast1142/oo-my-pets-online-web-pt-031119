@@ -68,8 +68,7 @@ class Owner
   def list_pets
     count = []
     @pets.each_pair do |key, val|
-      @pets[key].size
-      binding.pry
+      count << @pets[key].size
     end
   end
 end
